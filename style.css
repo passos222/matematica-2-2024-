@@ -64,7 +64,7 @@ body {
     display: block;
 }
 .ala-textos{
-    backgrond-color: var(--testo-fundo)
+    backgrond-color: var(--texto-fundo)
     padding: 40px;
     border-rodius:0 0 40px 40px;
 }
