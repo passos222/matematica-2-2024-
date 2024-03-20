@@ -63,7 +63,27 @@ body {
 .botoes {
     display: block;
 }
-
+.ala-textos{
+    backgrond-color: var(--testo-fundo)
+    padding: 40px;
+    border-rodius:0 0 40px 40px;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo{
+    :
+    :display: nome;
+}
+.ala-conteudo-titulo-principal{
+    front-size: 28px;
+    text-align: center;
+}
+    .ala-conteudo-titulo-secundario{
+        text-align: center;
+        color: var(--verde);
+        text-transform: uppercase;
+    }
 
 @media screen and (min-width: 768px) {
     .botoes {
