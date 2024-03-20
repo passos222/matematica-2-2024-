@@ -56,6 +56,10 @@ body {
     border-radius: 40px 40px 0 0;
 }
 
+.botão.ativo{
+    background-color: var(--botao-ativo);
+    border-botom: 4px solid var(--verde)
+}
 .botoes {
     display: block;
 }
