@@ -55,35 +55,33 @@ body {
 .botao:first-child {
     border-radius: 40px 40px 0 0;
 }
-
 .botão.ativo{
-    background-color: var(--botao-ativo);
-    border-botom: 4px solid var(--verde)
+    background-color: var(--botão-ativo);
+    border-bottom: 4px solid var(--verde);
 }
 .botoes {
     display: block;
 }
-.ala-textos{
-    backgrond-color: var(--texto-fundo)
-    padding: 40px;
-    border-rodius:0 0 40px 40px;
+.aba-textos{
+    background-color: var(--texto-fundo);
+padding: 40px;
+border-radius: o o 40px 40px;
 }
 .aba-conteudo.ativo{
     display: block;
 }
-.aba-conteudo{
-    :
-    :display: nome;
+.aba-conteudo {
+    diplay: nome;
 }
-.ala-conteudo-titulo-principal{
-    front-size: 28px;
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+text-align: center;
+}
+.aba-conteudo-titulo-secundario{
     text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
 }
-    .ala-conteudo-titulo-secundario{
-        text-align: center;
-        color: var(--verde);
-        text-transform: uppercase;
-    }
 
 @media screen and (min-width: 768px) {
     .botoes {
